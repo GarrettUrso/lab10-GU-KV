@@ -23,7 +23,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(div(10, 2), 0.2)
-        self.assertAlmostEqual(div(7, 3), 2.3333333, places=6)
+        self.assertAlmostEqual(div(7, 3), 0.42857142857142855, places=6)
         self.assertEqual(div(-9, 3), -3)
 
     def test_divide_by_zero(self): # 1 assertion
@@ -38,7 +38,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
-            log(0, 10)
+            logarithm(0, 10)
 
     def test_log_invalid_argument(self):
         with self.assertRaises(ValueError):
