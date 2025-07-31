@@ -1,3 +1,7 @@
+# https://github.com/GarrettUrso/lab10-GU-KV
+# Partner 1: Garrett Urso
+# Partner 2: Kirk Andrew Vinas
+
 import math
 
 def square_root(a):
