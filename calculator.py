@@ -22,7 +22,7 @@ def subtract(a, b):
 def mul(a,b):
     return a * b
 def div(a,b):
-    if a <= 0:
+    if a = 0:
         raise ZeroDivisionError("a must not be 0.")
     try:
         return b / a
